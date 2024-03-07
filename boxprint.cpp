@@ -15,8 +15,9 @@ auto boxPrint(std::vector<std::string> vec, u_char sign = '*'){
         std::string printBody = std::string(spaces, ' ');
         std::cout << signForBorder << vec[i] << printBody << signForBorder << "\n";
     }
-    std::cout << signForBorder << printStartEnd << signForBorder << "\n";
+    std::cout << signForBorder << printStartEnd << signForBorder << "\n" << "\n";
 }
+
 
 
 auto main() -> int {
