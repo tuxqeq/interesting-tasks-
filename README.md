@@ -1,1 +1,1 @@
-# interesting tasks from sytudying
+# interesting tasks from studying
