@@ -3,9 +3,9 @@
 auto boxPrint(std::vector<std::string> vec, u_char sign = '*'){
     auto maxWordSize = 0;
     auto signForBorder = sign;
-    for (int i = 0; i < vec.size(); i++) {
-        if(vec[i].size() > maxWordSize){
-            maxWordSize = vec[i].size();
+    for (auto i : vec) {
+        if(i.size() > maxWordSize){
+            maxWordSize = i.size();
         }
     }
     std::string printStartEnd = std::string(maxWordSize, signForBorder);
